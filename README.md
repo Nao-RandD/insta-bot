@@ -1,6 +1,8 @@
 ## insta-bot
 
-###usage
+### develop
+buranch -> maru(開発中)
+### usage
 
 main.py 17,19行目は適宜書き換え
 
