@@ -10,7 +10,6 @@ main.py 17,19行目は適宜書き換え
 // terminal 1
 % docker build .(長いのでdemo省略)
 % docker-compose up
-// output↓
 ~~~
 |  Name  |  Command  |  State  |  Ports  |
 | ---- | ---- | ---- | ---- |
