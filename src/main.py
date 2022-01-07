@@ -67,7 +67,7 @@ def clicknice():
 
 	for i in range(random.randint(15, 25)):
 		try:
-			driver.find_element_by_class_name('wpO6b  ').click()
+			driver.find_element_by_class_name('coreSpriteRightPaginationArrow').click()
 			f = open('insta.txt','a')
 			f.write("次の投稿へ移動しました\n")
 			f.close()
