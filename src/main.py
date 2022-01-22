@@ -81,18 +81,6 @@ def clicknice():
 			f.write(str(nn) + "つ目の投稿へ移動時にエラーが発生しました\n")
 			f.close()
 			time.sleep(5)
-
-		try: 
-			driver.find_element_by_class_name('FY9nT')
-			f = open('insta.txt','a')
-			f.write("いいね!未完\n")
-			f.close()
-		except WebDriverException:
-			f = open('insta.txt','a')
-			f.write("いいね!済みっつつつ！\n")
-			f.close()
-			time.sleep(random.randint(3, 6))
-			continue
         
 		try:
 			# いいねを押す
